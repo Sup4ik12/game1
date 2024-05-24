@@ -1,0 +1,256 @@
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Кирилл\мои программы\тест\main.exe, файл: d:\кирилл\кодеблокс\codeblocks\mingw\include\txlib.h, строка: 13648, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 172, Date: 2023-09-05 19:24:34 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x28C8 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416488 in D:\Кирилл\мои программы\тест\main.exe: (anonymous namespace)::TX::txBitBlt()
+# 1 0x0041CEC0 in D:\Кирилл\мои программы\тест\main.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 172, Date: 2023-09-05 19:24:34 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\кирилл\кодеблокс\codeblocks\mingw\include\txlib.h
+Compiled:	May 13 2024 18:10:38, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	May 13 2024 18:10:48
+
+Run file:	D:\Кирилл\мои программы\тест\main.exe
+Directory:	D:\Кирилл\мои программы\тест
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Кирилл\мои программы\тест\main.exe, файл: d:\кирилл\кодеблокс\codeblocks\mingw\include\txlib.h, строка: 13648, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 172, Date: 2023-09-05 19:24:34 +0400], Instance: 0x004F52FC (32-bit), Flags: CMdRe0, Thread: 0x47E0 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416488 in D:\Кирилл\мои программы\тест\main.exe: (anonymous namespace)::TX::txBitBlt()
+# 1 0x0041D3ED in D:\Кирилл\мои программы\тест\main.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 172, Date: 2023-09-05 19:24:34 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\кирилл\кодеблокс\codeblocks\mingw\include\txlib.h
+Compiled:	May 17 2024 17:19:57, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	May 17 2024 17:20:08
+
+Run file:	D:\Кирилл\мои программы\тест\main.exe
+Directory:	D:\Кирилл\мои программы\тест
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Кирилл\мои программы\тест\main.exe, файл: d:\кирилл\кодеблокс\codeblocks\mingw\include\txlib.h, строка: 13648, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 172, Date: 2023-09-05 19:24:34 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x4790 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416488 in D:\Кирилл\мои программы\тест\main.exe: (anonymous namespace)::TX::txBitBlt()
+# 1 0x0041CFDE in D:\Кирилл\мои программы\тест\main.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 172, Date: 2023-09-05 19:24:34 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\кирилл\кодеблокс\codeblocks\mingw\include\txlib.h
+Compiled:	May 20 2024 18:22:00, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	May 20 2024 18:22:14
+
+Run file:	D:\Кирилл\мои программы\тест\main.exe
+Directory:	D:\Кирилл\мои программы\тест
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Кирилл\мои программы\тест\main.exe, файл: d:\кирилл\кодеблокс\codeblocks\mingw\include\txlib.h, строка: 13648, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 172, Date: 2023-09-05 19:24:34 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x3A18 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416488 in D:\Кирилл\мои программы\тест\main.exe: (anonymous namespace)::TX::txBitBlt()
+# 1 0x0041CFDE in D:\Кирилл\мои программы\тест\main.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 172, Date: 2023-09-05 19:24:34 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\кирилл\кодеблокс\codeblocks\mingw\include\txlib.h
+Compiled:	May 20 2024 18:22:00, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	May 20 2024 18:22:26
+
+Run file:	D:\Кирилл\мои программы\тест\main.exe
+Directory:	D:\Кирилл\мои программы\тест
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Кирилл\мои программы\тест\main.exe, файл: d:\кирилл\кодеблокс\codeblocks\mingw\include\txlib.h, строка: 13648, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 172, Date: 2023-09-05 19:24:34 +0400], Instance: 0x004F52FC (32-bit), Flags: CMdRe0, Thread: 0x1910 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416488 in D:\Кирилл\мои программы\тест\main.exe: (anonymous namespace)::TX::txBitBlt()
+# 1 0x0041D052 in D:\Кирилл\мои программы\тест\main.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 172, Date: 2023-09-05 19:24:34 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\кирилл\кодеблокс\codeblocks\mingw\include\txlib.h
+Compiled:	May 20 2024 18:22:49, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	May 20 2024 18:22:59
+
+Run file:	D:\Кирилл\мои программы\тест\main.exe
+Directory:	D:\Кирилл\мои программы\тест
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Кирилл\мои программы\тест\main.exe, файл: d:\кирилл\кодеблокс\codeblocks\mingw\include\txlib.h, строка: 13648, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 172, Date: 2023-09-05 19:24:34 +0400], Instance: 0x004F52FC (32-bit), Flags: CMdRe0, Thread: 0x24DC (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416488 in D:\Кирилл\мои программы\тест\main.exe: (anonymous namespace)::TX::txBitBlt()
+# 1 0x0041D052 in D:\Кирилл\мои программы\тест\main.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 172, Date: 2023-09-05 19:24:34 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\кирилл\кодеблокс\codeblocks\mingw\include\txlib.h
+Compiled:	May 20 2024 18:22:49, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	May 20 2024 18:23:08
+
+Run file:	D:\Кирилл\мои программы\тест\main.exe
+Directory:	D:\Кирилл\мои программы\тест
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Кирилл\мои программы\тест\main.exe, файл: d:\кирилл\кодеблокс\codeblocks\mingw\include\txlib.h, строка: 13648, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 172, Date: 2023-09-05 19:24:34 +0400], Instance: 0x004F52FC (32-bit), Flags: CMdRe0, Thread: 0x4A14 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416488 in D:\Кирилл\мои программы\тест\main.exe: (anonymous namespace)::TX::txBitBlt()
+# 1 0x0041D045 in D:\Кирилл\мои программы\тест\main.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 172, Date: 2023-09-05 19:24:34 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\кирилл\кодеблокс\codeblocks\mingw\include\txlib.h
+Compiled:	May 20 2024 18:24:14, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	May 20 2024 18:24:23
+
+Run file:	D:\Кирилл\мои программы\тест\main.exe
+Directory:	D:\Кирилл\мои программы\тест
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Кирилл\мои программы\тест\main.exe, файл: d:\кирилл\кодеблокс\codeblocks\mingw\include\txlib.h, строка: 13648, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 172, Date: 2023-09-05 19:24:34 +0400], Instance: 0x004F52FC (32-bit), Flags: CMdRe0, Thread: 0x348 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416488 in D:\Кирилл\мои программы\тест\main.exe: (anonymous namespace)::TX::txBitBlt()
+# 1 0x0041D045 in D:\Кирилл\мои программы\тест\main.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 172, Date: 2023-09-05 19:24:34 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\кирилл\кодеблокс\codeblocks\mingw\include\txlib.h
+Compiled:	May 20 2024 18:30:28, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	May 20 2024 18:30:38
+
+Run file:	D:\Кирилл\мои программы\тест\main.exe
+Directory:	D:\Кирилл\мои программы\тест
+
+--------------------------------------------------

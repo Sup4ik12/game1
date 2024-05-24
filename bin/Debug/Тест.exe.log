@@ -1,0 +1,696 @@
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005062FC (32-bit), Flags: CMdRe0, Thread: 0x2D88 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004221C3 in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: txBitBlt() at c:/codeblocks/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0042C66C in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: main() at D:/Козлов Кирилл/Тест/main.cpp (77):
+
+     75:         //первый вариант ответа
+     76:         txRectangle(103,273,410,562);
+=>   77:         txBitBlt(txDC(),103,273,307,289,sh.p1);
+     78:         //второй вариант ответа
+     79:         txRectangle(504,273,810,562);
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int) at c:\codeblocks\codeblocks\mingw\include\txlib.h (13628):
+
+  13626:     {
+  13627: $1  if (_TX_HDC_FAILED (destImage))   return false;
+=>13628: $   if (_TX_HDC_FAILED (sourceImage)) return false;
+  13629: 
+  13630: $   POINT size = txGetExtent (sourceImage);
+
+# 1 in int main() at D:\Козлов Кирилл\Тест\main.cpp (77):
+
+     75:         //первый вариант ответа
+     76:         txRectangle(103,273,410,562);
+=>   77:         txBitBlt(txDC(),103,273,307,289,sh.p1);
+     78:         //второй вариант ответа
+     79:         txRectangle(504,273,810,562);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	May 24 2024 17:06:30, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	May 24 2024 17:06:51
+
+Run file:	D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe
+Directory:	D:\Козлов Кирилл\Тест
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005062FC (32-bit), Flags: CMdRe0, Thread: 0x3120 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004221C3 in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: txBitBlt() at c:/codeblocks/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0042C5F8 in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: main() at D:/Козлов Кирилл/Тест/main.cpp (77):
+
+     75:         //первый вариант ответа
+     76:         txRectangle(103,273,410,562);
+=>   77:         txBitBlt(txDC(),103,273,307,289,sh.p1);
+     78:         //второй вариант ответа
+     79:         txRectangle(504,273,810,562);
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int) at c:\codeblocks\codeblocks\mingw\include\txlib.h (13628):
+
+  13626:     {
+  13627: $1  if (_TX_HDC_FAILED (destImage))   return false;
+=>13628: $   if (_TX_HDC_FAILED (sourceImage)) return false;
+  13629: 
+  13630: $   POINT size = txGetExtent (sourceImage);
+
+# 1 in int main() at D:\Козлов Кирилл\Тест\main.cpp (77):
+
+     75:         //первый вариант ответа
+     76:         txRectangle(103,273,410,562);
+=>   77:         txBitBlt(txDC(),103,273,307,289,sh.p1);
+     78:         //второй вариант ответа
+     79:         txRectangle(504,273,810,562);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	May 24 2024 17:09:24, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	May 24 2024 17:09:43
+
+Run file:	D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe
+Directory:	D:\Козлов Кирилл\Тест
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005062FC (32-bit), Flags: CMdRe0, Thread: 0x1774 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004221C3 in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: txBitBlt() at c:/codeblocks/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0042C657 in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: main() at D:/Козлов Кирилл/Тест/main.cpp (79):
+
+     77:         //первый вариант ответа
+     78:         txRectangle(103,273,410,562);
+=>   79:         txBitBlt(txDC(),103,273,307,289,sh.p1);
+     80:         //второй вариант ответа
+     81:         txRectangle(504,273,810,562);
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int) at c:\codeblocks\codeblocks\mingw\include\txlib.h (13628):
+
+  13626:     {
+  13627: $1  if (_TX_HDC_FAILED (destImage))   return false;
+=>13628: $   if (_TX_HDC_FAILED (sourceImage)) return false;
+  13629: 
+  13630: $   POINT size = txGetExtent (sourceImage);
+
+# 1 in int main() at D:\Козлов Кирилл\Тест\main.cpp (79):
+
+     77:         //первый вариант ответа
+     78:         txRectangle(103,273,410,562);
+=>   79:         txBitBlt(txDC(),103,273,307,289,sh.p1);
+     80:         //второй вариант ответа
+     81:         txRectangle(504,273,810,562);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	May 24 2024 17:23:53, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	May 24 2024 17:24:15
+
+Run file:	D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe
+Directory:	D:\Козлов Кирилл\Тест
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005062FC (32-bit), Flags: CMdRe0, Thread: 0x1530 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004221C3 in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: txBitBlt() at c:/codeblocks/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0042C657 in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: main() at D:/Козлов Кирилл/Тест/main.cpp (79):
+
+     77:         //первый вариант ответа
+     78:         txRectangle(103,273,410,562);
+=>   79:         txBitBlt(txDC(),103,273,307,289,sh.p1);
+     80:         //второй вариант ответа
+     81:         txRectangle(504,273,810,562);
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int) at c:\codeblocks\codeblocks\mingw\include\txlib.h (13628):
+
+  13626:     {
+  13627: $1  if (_TX_HDC_FAILED (destImage))   return false;
+=>13628: $   if (_TX_HDC_FAILED (sourceImage)) return false;
+  13629: 
+  13630: $   POINT size = txGetExtent (sourceImage);
+
+# 1 in int main() at D:\Козлов Кирилл\Тест\main.cpp (79):
+
+     77:         //первый вариант ответа
+     78:         txRectangle(103,273,410,562);
+=>   79:         txBitBlt(txDC(),103,273,307,289,sh.p1);
+     80:         //второй вариант ответа
+     81:         txRectangle(504,273,810,562);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	May 24 2024 17:25:30, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	May 24 2024 17:25:49
+
+Run file:	D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe
+Directory:	D:\Козлов Кирилл\Тест
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005062FC (32-bit), Flags: CMdRe0, Thread: 0x1478 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004221C3 in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: txBitBlt() at c:/codeblocks/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0042C657 in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: main() at D:/Козлов Кирилл/Тест/main.cpp (79):
+
+     77:         //первый вариант ответа
+     78:         txRectangle(103,273,410,562);
+=>   79:         txBitBlt(txDC(),103,273,307,289,sh.p1);
+     80:         //второй вариант ответа
+     81:         txRectangle(504,273,810,562);
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int) at c:\codeblocks\codeblocks\mingw\include\txlib.h (13628):
+
+  13626:     {
+  13627: $1  if (_TX_HDC_FAILED (destImage))   return false;
+=>13628: $   if (_TX_HDC_FAILED (sourceImage)) return false;
+  13629: 
+  13630: $   POINT size = txGetExtent (sourceImage);
+
+# 1 in int main() at D:\Козлов Кирилл\Тест\main.cpp (79):
+
+     77:         //первый вариант ответа
+     78:         txRectangle(103,273,410,562);
+=>   79:         txBitBlt(txDC(),103,273,307,289,sh.p1);
+     80:         //второй вариант ответа
+     81:         txRectangle(504,273,810,562);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	May 24 2024 17:33:57, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	May 24 2024 17:34:15
+
+Run file:	D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe
+Directory:	D:\Козлов Кирилл\Тест
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 13568, функция: HDC__* {anonymous}::TX::txLoadImage(const char*, int, int, unsigned int, unsigned int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "filename && *filename".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005062FC (32-bit), Flags: CMdRe0, Thread: 0x2E8C (Main), GetLastError(): 160 (Неверны один или несколько аргументов). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00421906 in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: txLoadImage() at c:/codeblocks/codeblocks/mingw/include/txlib.h (13568)
+
+# 1 0x0042C18C in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: main() at D:/Козлов Кирилл/Тест/main.cpp (56):
+
+     54:         sh_list[i].v2 = getPart(&pos2,str);
+     55:         sh_list[i].v3 = getPart(&pos2,str);
+=>   56:         sh_list[i].p1 = txLoadImage(getPart(&pos2,str).c_str());
+     57:         sh_list[i].p2 = txLoadImage(getPart(&pos2,str).c_str());
+     58:         sh_list[i].p3 = txLoadImage(getPart(&pos2,str).c_str());
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HDC__* {anonymous}::TX::txLoadImage(const char*, int, int, unsigned int, unsigned int) at c:\codeblocks\codeblocks\mingw\include\txlib.h (13568):
+
+  13566:                  unsigned imageFlags /*= IMAGE_BITMAP*/, unsigned loadFlags /*= LR_LOADFROMFILE*/)
+  13567:     {
+=>13568: $1  if (_TX_ARGUMENT_FAILED (filename && *filename)) return NULL;
+  13569: 
+  13570: $   HBITMAP image = (HBITMAP) Win32::LoadImage ((loadFlags & LR_LOADFROMFILE)? NULL : GetModuleHandle (NULL),
+
+# 1 in int main() at D:\Козлов Кирилл\Тест\main.cpp (56):
+
+     54:         sh_list[i].v2 = getPart(&pos2,str);
+     55:         sh_list[i].v3 = getPart(&pos2,str);
+=>   56:         sh_list[i].p1 = txLoadImage(getPart(&pos2,str).c_str());
+     57:         sh_list[i].p2 = txLoadImage(getPart(&pos2,str).c_str());
+     58:         sh_list[i].p3 = txLoadImage(getPart(&pos2,str).c_str());
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	May 24 2024 18:02:10, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	May 24 2024 18:11:21
+
+Run file:	D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe
+Directory:	D:\Козлов Кирилл\Тест
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 13568, функция: HDC__* {anonymous}::TX::txLoadImage(const char*, int, int, unsigned int, unsigned int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "filename && *filename".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005062FC (32-bit), Flags: CMdRe0, Thread: 0x2A8C (Main), GetLastError(): 160 (Неверны один или несколько аргументов). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00421906 in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: txLoadImage() at c:/codeblocks/codeblocks/mingw/include/txlib.h (13568)
+
+# 1 0x0042C18C in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: main() at D:/Козлов Кирилл/Тест/main.cpp (56):
+
+     54:         sh_list[i].v2 = getPart(&pos2,str);
+     55:         sh_list[i].v3 = getPart(&pos2,str);
+=>   56:         sh_list[i].p1 = txLoadImage(getPart(&pos2,str).c_str());
+     57:         sh_list[i].p2 = txLoadImage(getPart(&pos2,str).c_str());
+     58:         sh_list[i].p3 = txLoadImage(getPart(&pos2,str).c_str());
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HDC__* {anonymous}::TX::txLoadImage(const char*, int, int, unsigned int, unsigned int) at c:\codeblocks\codeblocks\mingw\include\txlib.h (13568):
+
+  13566:                  unsigned imageFlags /*= IMAGE_BITMAP*/, unsigned loadFlags /*= LR_LOADFROMFILE*/)
+  13567:     {
+=>13568: $1  if (_TX_ARGUMENT_FAILED (filename && *filename)) return NULL;
+  13569: 
+  13570: $   HBITMAP image = (HBITMAP) Win32::LoadImage ((loadFlags & LR_LOADFROMFILE)? NULL : GetModuleHandle (NULL),
+
+# 1 in int main() at D:\Козлов Кирилл\Тест\main.cpp (56):
+
+     54:         sh_list[i].v2 = getPart(&pos2,str);
+     55:         sh_list[i].v3 = getPart(&pos2,str);
+=>   56:         sh_list[i].p1 = txLoadImage(getPart(&pos2,str).c_str());
+     57:         sh_list[i].p2 = txLoadImage(getPart(&pos2,str).c_str());
+     58:         sh_list[i].p3 = txLoadImage(getPart(&pos2,str).c_str());
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	May 24 2024 18:02:10, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	May 24 2024 18:11:27
+
+Run file:	D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe
+Directory:	D:\Козлов Кирилл\Тест
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 13568, функция: HDC__* {anonymous}::TX::txLoadImage(const char*, int, int, unsigned int, unsigned int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "filename && *filename".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005062FC (32-bit), Flags: CMdRe0, Thread: 0x2F9C (Main), GetLastError(): 160 (Неверны один или несколько аргументов). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00421906 in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: txLoadImage() at c:/codeblocks/codeblocks/mingw/include/txlib.h (13568)
+
+# 1 0x0042C18C in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: main() at D:/Козлов Кирилл/Тест/main.cpp (56):
+
+     54:         sh_list[i].v2 = getPart(&pos2,str);
+     55:         sh_list[i].v3 = getPart(&pos2,str);
+=>   56:         sh_list[i].p1 = txLoadImage(getPart(&pos2,str).c_str());
+     57:         sh_list[i].p2 = txLoadImage(getPart(&pos2,str).c_str());
+     58:         sh_list[i].p3 = txLoadImage(getPart(&pos2,str).c_str());
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HDC__* {anonymous}::TX::txLoadImage(const char*, int, int, unsigned int, unsigned int) at c:\codeblocks\codeblocks\mingw\include\txlib.h (13568):
+
+  13566:                  unsigned imageFlags /*= IMAGE_BITMAP*/, unsigned loadFlags /*= LR_LOADFROMFILE*/)
+  13567:     {
+=>13568: $1  if (_TX_ARGUMENT_FAILED (filename && *filename)) return NULL;
+  13569: 
+  13570: $   HBITMAP image = (HBITMAP) Win32::LoadImage ((loadFlags & LR_LOADFROMFILE)? NULL : GetModuleHandle (NULL),
+
+# 1 in int main() at D:\Козлов Кирилл\Тест\main.cpp (56):
+
+     54:         sh_list[i].v2 = getPart(&pos2,str);
+     55:         sh_list[i].v3 = getPart(&pos2,str);
+=>   56:         sh_list[i].p1 = txLoadImage(getPart(&pos2,str).c_str());
+     57:         sh_list[i].p2 = txLoadImage(getPart(&pos2,str).c_str());
+     58:         sh_list[i].p3 = txLoadImage(getPart(&pos2,str).c_str());
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	May 24 2024 18:02:10, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	May 24 2024 18:12:40
+
+Run file:	D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe
+Directory:	D:\Козлов Кирилл\Тест
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 13568, функция: HDC__* {anonymous}::TX::txLoadImage(const char*, int, int, unsigned int, unsigned int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "filename && *filename".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005062FC (32-bit), Flags: CMdRe0, Thread: 0x2A34 (Main), GetLastError(): 160 (Неверны один или несколько аргументов). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00421906 in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: txLoadImage() at c:/codeblocks/codeblocks/mingw/include/txlib.h (13568)
+
+# 1 0x0042C18C in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: main() at D:/Козлов Кирилл/Тест/main.cpp (56):
+
+     54:         sh_list[i].v2 = getPart(&pos2,str);
+     55:         sh_list[i].v3 = getPart(&pos2,str);
+=>   56:         sh_list[i].p1 = txLoadImage(getPart(&pos2,str).c_str());
+     57:         sh_list[i].p2 = txLoadImage(getPart(&pos2,str).c_str());
+     58:         sh_list[i].p3 = txLoadImage(getPart(&pos2,str).c_str());
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HDC__* {anonymous}::TX::txLoadImage(const char*, int, int, unsigned int, unsigned int) at c:\codeblocks\codeblocks\mingw\include\txlib.h (13568):
+
+  13566:                  unsigned imageFlags /*= IMAGE_BITMAP*/, unsigned loadFlags /*= LR_LOADFROMFILE*/)
+  13567:     {
+=>13568: $1  if (_TX_ARGUMENT_FAILED (filename && *filename)) return NULL;
+  13569: 
+  13570: $   HBITMAP image = (HBITMAP) Win32::LoadImage ((loadFlags & LR_LOADFROMFILE)? NULL : GetModuleHandle (NULL),
+
+# 1 in int main() at D:\Козлов Кирилл\Тест\main.cpp (56):
+
+     54:         sh_list[i].v2 = getPart(&pos2,str);
+     55:         sh_list[i].v3 = getPart(&pos2,str);
+=>   56:         sh_list[i].p1 = txLoadImage(getPart(&pos2,str).c_str());
+     57:         sh_list[i].p2 = txLoadImage(getPart(&pos2,str).c_str());
+     58:         sh_list[i].p3 = txLoadImage(getPart(&pos2,str).c_str());
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	May 24 2024 18:13:20, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	May 24 2024 18:13:39
+
+Run file:	D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe
+Directory:	D:\Козлов Кирилл\Тест
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 13568, функция: HDC__* {anonymous}::TX::txLoadImage(const char*, int, int, unsigned int, unsigned int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "filename && *filename".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005062FC (32-bit), Flags: CMdRe0, Thread: 0x1710 (Main), GetLastError(): 160 (Неверны один или несколько аргументов). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00421906 in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: txLoadImage() at c:/codeblocks/codeblocks/mingw/include/txlib.h (13568)
+
+# 1 0x0042C18C in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: main() at D:/Козлов Кирилл/Тест/main.cpp (56):
+
+     54:         sh_list[i].v2 = getPart(&pos2,str);
+     55:         sh_list[i].v3 = getPart(&pos2,str);
+=>   56:         sh_list[i].p1 = txLoadImage(getPart(&pos2,str).c_str());
+     57:         sh_list[i].p2 = txLoadImage(getPart(&pos2,str).c_str());
+     58:         sh_list[i].p3 = txLoadImage(getPart(&pos2,str).c_str());
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HDC__* {anonymous}::TX::txLoadImage(const char*, int, int, unsigned int, unsigned int) at c:\codeblocks\codeblocks\mingw\include\txlib.h (13568):
+
+  13566:                  unsigned imageFlags /*= IMAGE_BITMAP*/, unsigned loadFlags /*= LR_LOADFROMFILE*/)
+  13567:     {
+=>13568: $1  if (_TX_ARGUMENT_FAILED (filename && *filename)) return NULL;
+  13569: 
+  13570: $   HBITMAP image = (HBITMAP) Win32::LoadImage ((loadFlags & LR_LOADFROMFILE)? NULL : GetModuleHandle (NULL),
+
+# 1 in int main() at D:\Козлов Кирилл\Тест\main.cpp (56):
+
+     54:         sh_list[i].v2 = getPart(&pos2,str);
+     55:         sh_list[i].v3 = getPart(&pos2,str);
+=>   56:         sh_list[i].p1 = txLoadImage(getPart(&pos2,str).c_str());
+     57:         sh_list[i].p2 = txLoadImage(getPart(&pos2,str).c_str());
+     58:         sh_list[i].p3 = txLoadImage(getPart(&pos2,str).c_str());
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	May 24 2024 18:15:46, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	May 24 2024 18:16:05
+
+Run file:	D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe
+Directory:	D:\Козлов Кирилл\Тест
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 13568, функция: HDC__* {anonymous}::TX::txLoadImage(const char*, int, int, unsigned int, unsigned int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "filename && *filename".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005062FC (32-bit), Flags: CMdRe0, Thread: 0x253C (Main), GetLastError(): 160 (Неверны один или несколько аргументов). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00421906 in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: txLoadImage() at c:/codeblocks/codeblocks/mingw/include/txlib.h (13568)
+
+# 1 0x0042C18C in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: main() at D:/Козлов Кирилл/Тест/main.cpp (56):
+
+     54:         sh_list[i].v2 = getPart(&pos2,str);
+     55:         sh_list[i].v3 = getPart(&pos2,str);
+=>   56:         sh_list[i].p1 = txLoadImage(getPart(&pos2,str).c_str());
+     57:         sh_list[i].p2 = txLoadImage(getPart(&pos2,str).c_str());
+     58:         sh_list[i].p3 = txLoadImage(getPart(&pos2,str).c_str());
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HDC__* {anonymous}::TX::txLoadImage(const char*, int, int, unsigned int, unsigned int) at c:\codeblocks\codeblocks\mingw\include\txlib.h (13568):
+
+  13566:                  unsigned imageFlags /*= IMAGE_BITMAP*/, unsigned loadFlags /*= LR_LOADFROMFILE*/)
+  13567:     {
+=>13568: $1  if (_TX_ARGUMENT_FAILED (filename && *filename)) return NULL;
+  13569: 
+  13570: $   HBITMAP image = (HBITMAP) Win32::LoadImage ((loadFlags & LR_LOADFROMFILE)? NULL : GetModuleHandle (NULL),
+
+# 1 in int main() at D:\Козлов Кирилл\Тест\main.cpp (56):
+
+     54:         sh_list[i].v2 = getPart(&pos2,str);
+     55:         sh_list[i].v3 = getPart(&pos2,str);
+=>   56:         sh_list[i].p1 = txLoadImage(getPart(&pos2,str).c_str());
+     57:         sh_list[i].p2 = txLoadImage(getPart(&pos2,str).c_str());
+     58:         sh_list[i].p3 = txLoadImage(getPart(&pos2,str).c_str());
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	May 24 2024 18:18:01, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	May 24 2024 18:18:20
+
+Run file:	D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe
+Directory:	D:\Козлов Кирилл\Тест
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 13568, функция: HDC__* {anonymous}::TX::txLoadImage(const char*, int, int, unsigned int, unsigned int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "filename && *filename".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005062FC (32-bit), Flags: CMdRe0, Thread: 0xDF0 (Main), GetLastError(): 160 (Неверны один или несколько аргументов). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00421906 in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: txLoadImage() at c:/codeblocks/codeblocks/mingw/include/txlib.h (13568)
+
+# 1 0x0042C18C in D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe: main() at D:/Козлов Кирилл/Тест/main.cpp (56):
+
+     54:         sh_list[i].v2 = getPart(&pos2,str);
+     55:         sh_list[i].v3 = getPart(&pos2,str);
+=>   56:         sh_list[i].p1 = txLoadImage(getPart(&pos2,str).c_str());
+     57:         sh_list[i].p2 = txLoadImage(getPart(&pos2,str).c_str());
+     58:         sh_list[i].p3 = txLoadImage(getPart(&pos2,str).c_str());
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HDC__* {anonymous}::TX::txLoadImage(const char*, int, int, unsigned int, unsigned int) at c:\codeblocks\codeblocks\mingw\include\txlib.h (13568):
+
+  13566:                  unsigned imageFlags /*= IMAGE_BITMAP*/, unsigned loadFlags /*= LR_LOADFROMFILE*/)
+  13567:     {
+=>13568: $1  if (_TX_ARGUMENT_FAILED (filename && *filename)) return NULL;
+  13569: 
+  13570: $   HBITMAP image = (HBITMAP) Win32::LoadImage ((loadFlags & LR_LOADFROMFILE)? NULL : GetModuleHandle (NULL),
+
+# 1 in int main() at D:\Козлов Кирилл\Тест\main.cpp (56):
+
+     54:         sh_list[i].v2 = getPart(&pos2,str);
+     55:         sh_list[i].v3 = getPart(&pos2,str);
+=>   56:         sh_list[i].p1 = txLoadImage(getPart(&pos2,str).c_str());
+     57:         sh_list[i].p2 = txLoadImage(getPart(&pos2,str).c_str());
+     58:         sh_list[i].p3 = txLoadImage(getPart(&pos2,str).c_str());
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	May 24 2024 18:19:09, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	May 24 2024 18:19:28
+
+Run file:	D:\Козлов Кирилл\Тест\bin\Debug\Тест.exe
+Directory:	D:\Козлов Кирилл\Тест
+
+--------------------------------------------------
